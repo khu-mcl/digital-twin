@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1",
+	"FriendlyName": "ADTLink for Unreal Engine",
+	"Description": "Unreal Engine Plugin for Azure Digital Twins",
+	"Category": "Other",
+	"CreatedBy": "WSP",
+	"CreatedByURL": "https://wspvisual.se/",
+	"DocsURL": "http://aka.ms/unreal-adt-plugin",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/c11298d19bf84cd7a14a68f925cfb755",
+	"SupportURL": "http://aka.ms/unread-adt-plugin/issues",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "AdtLink",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "DatasmithImporter",
+			"Enabled": true
+		}
+	]
+}
