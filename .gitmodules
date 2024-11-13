@@ -1,0 +1,3 @@
+[submodule "Flask"]
+	path = Flask
+	url = https://github.com/khu-mcl/digital-twin-server.git
